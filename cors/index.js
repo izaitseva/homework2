@@ -18,4 +18,4 @@ app.use((req, res, next) => {
     next()
 })
 
-app.listen(3000, () => console.log("server running"))
+app.listen(3000, () => console.log("cors running"))
